@@ -1,4 +1,4 @@
-import path from 'path';
+import * as path from 'path';
 import { Module } from '@nestjs/common';
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
 import { PrismaClient } from '@prisma/client';
